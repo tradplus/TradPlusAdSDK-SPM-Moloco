@@ -16,11 +16,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.14.0")
+            .exact("15.15.0")
         ),
         .package(
             url: "https://github.com/moloco/moloco-sdk-ios-spm",
-            .exact("4.9.1")
+            .exact("4.10.0")
         ),
     ],
     targets: [
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPMolocoAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Moloco/releases/download/15.14.0/TPMolocoAdapter-15.14.0.xcframework.zip",
-            checksum: "29e1999982d30ca5ef0f81cd23f697da2c3511e298142a2d70fc411966b63694"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Moloco/releases/download/15.15.0/TPMolocoAdapter-15.15.0.xcframework.zip",
+            checksum: "0c00a5f11ba985a69fb803c58f6eb680fc7a55b237ec0c0082805d6f751673ec"
         ),
     ]
 )
