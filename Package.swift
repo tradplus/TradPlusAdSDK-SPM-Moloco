@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "TradPlusMolocoAdapter",
     platforms: [
-        .iOS(.v12),
+        .iOS(.v13),
     ],
     products: [
         .library(
@@ -16,11 +16,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.17.0")
+            .exact("15.18.0")
         ),
         .package(
             url: "https://github.com/moloco/moloco-sdk-ios-spm",
-            .exact("4.10.0")
+            .exact("4.12.0")
         ),
     ],
     targets: [
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPMolocoAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Moloco/releases/download/15.17.0/TPMolocoAdapter-15.17.0.xcframework.zip",
-            checksum: "4c30c1f6159b8c149586edbfa684db8d8a3dff6d55b1bcf829c1813204baf093"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Moloco/releases/download/15.18.0/TPMolocoAdapter-15.18.0.xcframework.zip",
+            checksum: "7f2997df670262f179e2f9f56c6c108dd4871d428f847bbb483bd95e37cd6257"
         ),
     ]
 )
